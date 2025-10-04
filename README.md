@@ -11,7 +11,7 @@ Conforme as boas práticas de gestão de estoque, a regra de negócio implementa
 1.  **Instale as dependências:**
     Certifique-se de ter `fastapi`, `uvicorn`, `sqlalchemy`, `pydantic` e `pydantic-settings` instalados.
     ```bash
-    pip install fastapi "uvicorn[standard]" sqlalchemy pydantic
+    pip install fastapi "uvicorn[standard]" sqlalchemy pydantic pydantic-settings
     ```
 
 2.  **Execute o servidor:**
@@ -75,6 +75,6 @@ curl -X 'GET' \
 ### Observações
 ```bash
 4° Período de Sistemas 
-Feito por --Gustavo Ferrarez Gonçalves -- 007260
-          --Rafael Vinicius dos Santos -- 007202
+Feito por 'Gustavo Ferrarez Gonçalves -- 007260'
+          'Rafael Vinicius dos Santos -- 007202'
 ```
