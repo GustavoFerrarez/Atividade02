@@ -50,3 +50,31 @@ curl -X 'POST' \
   "quantidade": 2
 }'
 ```
+
+### 3. Consultar o Extrato de um Produto
+```bash
+curl -X 'GET' \
+  '[http://127.0.0.1:8000/v1/estoque/extrato/1](http://127.0.0.1:8000/v1/estoque/extrato/1)' \
+  -H 'accept: application/json'
+```
+
+### 4. Obter o Resumo Geral do Estoque
+```bash
+curl -X 'GET' \
+  '[http://127.0.0.1:8000/v1/estoque/resumo](http://127.0.0.1:8000/v1/estoque/resumo)' \
+  -H 'accept: application/json'
+```
+
+### 5. Listar Produtos com Estoque Abaixo do Mínimo
+```bash
+curl -X 'GET' \
+  '[http://127.0.0.1:8000/v1/produtos/abaixo-minimo](http://127.0.0.1:8000/v1/produtos/abaixo-minimo)' \
+  -H 'accept: application/json'
+```
+
+### Observações
+```bash
+4° Período de Sistemas 
+Feito por --Gustavo Ferrarez Gonçalves -- 007260
+          --Rafael Vinicius dos Santos -- 007202
+```
