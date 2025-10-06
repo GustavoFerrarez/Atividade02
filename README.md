@@ -15,9 +15,16 @@ Conforme as boas práticas de gestão de estoque, a regra de negócio implementa
     ```
 
 2.  **Execute o servidor:**
-    A partir da raiz do projeto, execute o seguinte comando:
+    A partir da raiz do projeto (Atividade02), execute o seguinte comando:
     ```bash
     uvicorn app.main:app --reload
+    ```
+    
+2.5. **Outra forma de execução:**
+    A partir da raiz do projeto (Atividade02), faça os seguintes passos abaixo:
+    ```bash
+    Vá para o 'main.py' e execute ele como 'Python Debugger: Debug using launch.json' agora em 'Python Debugger...' e depois em 'Python Debugger: FastAPI',
+    depois de fazer esses passos seu código irá funcionar.
     ```
 
 3.  **Acesse a Documentação Interativa:**
@@ -73,6 +80,9 @@ curl -X 'GET' \
 ```
 
 ### Observações
+
+PARA O FUNCIONAR TODAS AS SUAS FUNCIONALIDADES DO CÓGIGO VOCÊ PRECISA ESTAR DENTRO DA PASTA 'ATIVIDADE02' E REALIZAR O PASSO A PASSO NECESSÁRIO!
+
 ```bash
 4° Período de Sistemas 
 Feito por 'Gustavo Ferrarez Gonçalves -- 007260'
