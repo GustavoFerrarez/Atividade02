@@ -20,14 +20,14 @@ Conforme as boas práticas de gestão de estoque, a regra de negócio implementa
     uvicorn app.main:app --reload
     ```
     
-2.5. **Outra forma de execução:**
+3. **Outra forma de execução:**
     A partir da raiz do projeto (Atividade02), faça os seguintes passos abaixo:
     ```bash
     Vá para o 'main.py' e execute ele como 'Python Debugger: Debug using launch.json' agora em 'Python Debugger...' e depois em 'Python Debugger: FastAPI',
     depois de fazer esses passos seu código irá funcionar.
     ```
 
-3.  **Acesse a Documentação Interativa:**
+4.  **Acesse a Documentação Interativa:**
     A API estará disponível em `http://127.0.0.1:8000`. A documentação do Swagger UI pode ser acessada em `http://127.0.0.1:8000/docs`.
 
 ## Exemplos de Chamadas (cURL)
