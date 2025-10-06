@@ -23,7 +23,7 @@ Conforme as boas práticas de gestão de estoque, a regra de negócio implementa
 3. **Outra forma de execução:**
     A partir da raiz do projeto (Atividade02), faça os seguintes passos abaixo:
     ```bash
-    Vá para o 'main.py' e execute ele como 'Python Debugger: Debug using launch.json' agora em 'More Python Debugger options...' e depois em 'Python Debugger: FastAPI',
+    Vá para o 'main.py' e execute ele como 'Python Debugger: Debug using launch.json' agora em 'Python Debugger...' e depois em 'Python Debugger: FastAPI',
     depois de fazer esses passos seu código irá funcionar.
     ```
 
